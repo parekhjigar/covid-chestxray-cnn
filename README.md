@@ -54,3 +54,6 @@ Here, the TP are the ones which are affected Covid-19 and are predicted as Covid
 
 ## H) Technical Issues
 The only issues that can be faced while implementing the CNN model is overfitting of the model as there is limited dataset available for the positive cases of Covid. Although data augmentation can help up to certain extent.
+
+## J) Data Bias
+The training error is the difference between actual vs predicted output of the CNN and the validation error is the same for the dataset which is unseen by the model. So, generally there is a trade-off between the bias and variance. High bias refers to the high training error and low bias refers to low training error. Meanwhile, high variance refers that the model is unable to make correct predictions on the validation set. So, higher the variance, high is the validation error, and lower the variance, low is the validation error. If there is low bias and high variance, the model tends to overfit and when there is high bias and high variance, the model tends to underfit. So here we aim to have low bias and low variance in order to have an accurate model.
